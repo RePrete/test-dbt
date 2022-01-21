@@ -9,7 +9,7 @@
 
 {{ config(materialized='table') }}
 
-select id_evento, sorgento
+select id_evento, sorgente
 from lead.lead.v3_eventi
 limit 100
 
